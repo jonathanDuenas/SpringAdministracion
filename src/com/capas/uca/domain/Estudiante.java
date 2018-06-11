@@ -1,7 +1,6 @@
 package com.capas.uca.domain;
 
 import java.util.Calendar;
-import java.util.Date;
 import java.util.List;
 
 import javax.persistence.Column;

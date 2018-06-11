@@ -17,4 +17,5 @@ public interface UsuarioRepository extends JpaRepository<Usuario, Integer>
 	List<Usuario> findByFingresoBetween(Date fi,Date fs);
 	List<Usuario> findByFvencimientoAfter(Date fv);*/
 	Usuario findByid(int id);
+	Usuario findByUsuarioAndPassword(String user, String pass);
 }
